@@ -1,0 +1,6 @@
+framework module TestSpecsKit {
+  umbrella header "TestSpecsKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

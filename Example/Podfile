@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TestSpecsKit_Example' do
+  pod 'TestSpecsKit', :path => '../'
+
+  target 'TestSpecsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
